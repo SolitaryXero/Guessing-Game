@@ -20,7 +20,7 @@ randomWordList = ['rainbow', 'computer', 'science', 'programming',
 
 randomWord = random.choice(randomWordList)
 
-maxGuesses = 5
+maxGuesses = maxGuesses = len(randomWord) + 2
 guesses = maxGuesses
 letterList = ""
 inputLetter = ""
